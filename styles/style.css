@@ -1,0 +1,266 @@
+.container {
+  	width: 90%;
+  	margin: 35px auto 0 auto;
+  	max-width: 1600px;
+}
+
+h1 {
+    font-weight: 700;
+    color: #5863E3;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    width: 400px;
+    color: black;
+    font-size: 49px;
+    font-weight: 400;
+    margin-top: 4px;
+}
+.txtboxes {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-top: 57px;
+}
+
+.comment {
+    height: 298px;
+    width: 756px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    background-color: #F8F8F8;
+    border: 2px solid #D4D3D3;
+    margin-bottom: 20px;
+    padding-top: 30px;
+}
+.comment::placeholder {
+    padding-left: 21px;
+    color: gray;
+}
+
+.smalls{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.ject{
+    height: 59px;
+    width: 370px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    background-color: #F8F8F8;
+    border: 2px solid #D4D3D3;
+    margin-bottom: 27px;
+}
+.ject::placeholder {
+    padding-left: 21px;
+    color: gray;
+}
+.iname{
+    height: 59px;
+    width: 370px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    background-color: #F8F8F8;
+    border: 2px solid #D4D3D3;
+    margin-bottom: 27px;
+}
+.iname::placeholder {
+    padding-left: 21px;
+    color: gray;
+}
+.email{
+    height: 59px;
+    width: 370px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    background-color: #F8F8F8;
+    border: 2px solid #D4D3D3;
+    margin-bottom: 27px;
+}
+.email::placeholder {
+    padding-left: 21px;
+    color: gray;
+}
+
+input[type=submit] {
+    height: 59px;
+    width: 370px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: white;
+    background-color: #5968F4;
+    border: 1px solid #5968F4;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.contacts {
+    margin-left: 100px;
+    margin-top: 51px;
+    display: flex;
+}
+
+.informs {
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    margin-bottom: 64px;
+    margin-right: 270px;
+}
+
+.cons {
+    justify-content: center;
+    background-color: #5968F4;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    align-items: center;
+    display: flex;
+    width: 68px;
+    height: 68px;
+}
+
+.pic1 {
+    height: 29px;
+    width: 41px;
+}
+
+.pic2 {
+    width: 51px;
+    height: 41px;
+}
+
+.pic3 {
+    width: 23px;
+    height: 38px;
+}
+
+.liltitle {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #4E4D54;
+}
+
+.txtinfo {
+    font-weight: 700;
+    line-height: 1.6;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    color: #99999A;
+}
+.blacktxt{
+    font-size: 49px;
+    font-weight: 400;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    width: 550px;
+    margin-top: 7px;
+} 
+.pics {
+    margin-top: 51px;
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 39px;
+}
+
+.bottompics {
+    width: 373px;
+    height: 373px;
+    margin-right: 99px;
+}
+.container {
+  width: 1200px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #000000;
+  width: 100%;
+  padding: 63px 0;
+  color: white;
+}
+
+.left-side h1 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 23px;
+}
+
+.left-side p {
+  font-size: 17px;
+  font-weight: 700;
+  color: #99999a;
+  width: 295px;
+  margin-bottom: 23px;
+}
+
+.left-side .icons {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.right-side {
+  display: flex;
+  align-items: flex-start;
+  gap: 100px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.right-side h2 {
+  font-size: 21px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+
+.right-side a {
+  font-size: 17px;
+  color: #5863e3;
+  margin-bottom: 9px;
+}
+
+.right-side .info {
+  font-size: 17px;
+  color: #5863e3;
+  margin-bottom: 9px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.right-side .info a {
+  margin-bottom: 0;
+  color: white;
+}
+
+.right-side .links {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-side .privacy {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-side .contact {
+  display: flex;
+  flex-direction: column;
+}

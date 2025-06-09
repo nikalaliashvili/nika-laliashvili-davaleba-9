@@ -1,0 +1,517 @@
+@media only screen and (min-width: 1280px){
+.container {
+	max-width: 1600px;
+ 	width: 90%;
+  	margin: 40px auto 0 auto;
+}
+
+.pics{
+    display: flex;
+    margin-top: 51px;
+}
+
+.bottompics{
+    margin-left: 2px;
+    height: 323px;
+    width: 323px;
+    margin-right: 79px;
+}
+
+.container-2 {
+  height: 372px;
+  width: 100%;
+  background-color: #000000;
+  border: 1px solid #000000;
+  padding: 63px 143px;
+  display: flex;
+}
+
+.first-row{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+}
+
+@media only screen and (max-width: 1280px){
+.container {
+	max-width: 1600px;
+ 	 width: 90%;
+  	margin: 40px auto 0 auto;
+}
+h1{
+    font-size: 13px;
+}
+
+h2{
+    font-size: 43px;
+}
+
+.txtboxes {
+  flex-direction: column;
+}
+
+.comment{
+  height: 298px;
+  width: 756px;
+}
+
+.smalls{
+    margin-left: 0;
+}
+
+.ject, .iname, .email{
+    width: 756px;
+}
+
+input[type=submit] {
+    width: 756px;
+}
+
+.contacts{
+    margin-left: 40px;
+}
+
+.informs {
+    margin-right: 120px;
+}
+
+
+.blacktxt{
+    font-size: 43px;
+    width: 500px;
+} 
+
+.pics{
+    flex-direction: column;
+}
+
+.bottompics{
+    height: 500px;
+    width: 500px;
+    margin-bottom: 40px;
+}
+
+.container-2 {
+    height: 372px;
+    width: 100%;
+    display: flex;
+    padding: 63px 53px;
+}
+
+.inf{
+    width: 200px;
+}
+
+.downtitle{
+    font-size: 20px;
+}
+
+.downtxt{
+    margin-top: 8px;
+}
+
+.first-row{
+    margin-left: 91px;
+}
+
+.second-row{
+    margin-left: 66px;
+}
+
+.third-row{
+    margin-left: 94px;
+}
+
+.row-name{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    margin-bottom: 32px;
+}
+
+.row-parts{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    color: #5863E3;
+    margin-bottom: 9px;
+}
+
+.lil-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+}
+
+.row-3{
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    margin-bottom: 9px;
+    margin-left: 14px;
+}
+
+}
+
+
+
+
+@media only screen and (max-width: 820px){
+.container {
+	max-width: 1600px;
+ 	 width: 90%;
+  	margin: 40px auto 0 auto;
+}
+h1{
+    font-size: 13px;
+}
+
+h2{
+    font-size: 43px;
+}
+
+.txtboxes {
+  flex-direction: column;
+  align-items: center;
+}
+.comment {
+  height: 298px;
+  width: 456px;
+}
+
+.smalls{
+    margin-left: 0;
+}
+
+.ject, .iname, .email{
+    width: 456px;
+}
+
+input[type=submit] {
+    width: 456px;
+}
+
+.contacts {
+    margin-left: 85px;
+}
+
+.informs{
+    margin-right: 70px;
+}
+
+
+.blacktext{
+    font-size: 43px;
+    width: 500px;
+} 
+
+.pics{
+    flex-direction: column;
+}
+
+.bottompics{
+    height: 400px;
+    width: 400px;
+    margin-bottom: 30px;
+}
+
+.container-2 {
+    height: 372px;
+    width: 100%;
+    display: flex;
+    padding: 63px 33px;
+}
+
+.inf{
+    width: 150px;
+}
+
+.fb{
+    height: 34px;
+    width: 34px;
+    margin-right: 7px;
+}
+
+.tw{
+    height: 30px;
+    width: 30px;
+    margin-right: 7px;
+}
+.google{
+    height: 30px;
+    width: 30px;
+    margin-right: 7px;
+}
+.downtitle{
+    font-size: 18px;
+}
+
+.row-parts{
+    margin-top: 8px;
+}
+
+.first-row{
+    margin-left: 71px;
+}
+
+.second-row{
+    margin-left: 36px;
+}
+
+.third-row{
+    margin-left: 54px;
+}
+
+}
+
+@media (max-width: 697px) {
+
+.container {
+	max-width: 1600px;
+ 	width: 90%;
+  	margin: 40px auto 0 auto;
+}
+h1{
+    font-size: 13px;
+}
+
+h2{
+    font-size: 43px;
+}
+
+.txtboxes {
+  flex-direction: column;
+}
+
+.comment {
+  height: 298px;
+  width: 100px;
+}
+
+.smalls{
+    margin-left: 0;
+}
+
+.ject, .iname, .email{
+    width: 456px;
+}
+
+input[type=submit] {
+    width: 456px;
+}
+
+.contacts {
+    margin-left: 30px;
+}
+
+.container-2 {
+    height: 372px;
+    width: 100%;
+    display: flex;
+    padding: 63px 33px;
+}
+
+.inf{
+    width: auto;
+}
+
+.fb{
+    height: 34px;
+    width: 34px;
+    margin-right: 7px;
+}
+
+.tw{
+    height: 30px;
+    width: 30px;
+    margin-right: 7px;
+}
+.google{
+    height: 30px;
+    width: 30px;
+    margin-right: 7px;
+}
+.downtitle{
+    font-size: 18px;
+}
+
+.downtxt{
+    margin-top: 8px;
+}
+
+.container-2 {
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+    height: auto;
+}
+
+.first-row,.second-row,.third-row {
+    margin-left: 0;
+}
+
+  .accordion-content {
+    display: none;
+  }
+
+}
+
+
+
+
+@media (max-width: 450px) {
+
+.container {
+	max-width: 1600px;
+ 	width: 90%;
+  	margin: 40px auto 0 auto;
+    flex-direction: column;
+}
+h1{
+    font-size: 13px;
+}
+
+h2{
+    font-size: 36px;
+}
+
+.txtboxes {
+  flex-direction: column;
+}
+
+.comment {
+  height: 198px;
+  width: 256px;
+}
+.smalls{
+    margin-left: 0;
+}
+
+.ject, .iname, .email{
+    width: 256px;
+}
+
+input[type=submit] {
+    width: 256px;
+}
+
+.contacts {
+    margin-left: 30px;
+    flex-direction: column;
+}
+
+.blacktext{
+    font-size:39px;
+    font-weight: 400;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    width: 250px;
+} 
+
+.pics{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 51px;
+}
+
+.bottompics{
+    height: 323px;
+    width: 323px;
+    margin-right: 99px;
+}
+
+.container-2 {
+    height: auto;
+    width: auto;
+    display: flex;
+    padding: 63px 33px;
+    flex-direction: column;
+
+}
+
+.downtitle{
+    border: 2px solid #5863E3;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inf{
+    width: auto;
+}
+
+.fb{
+    height: 34px;
+    width: 34px;
+    margin-right: 7px;
+}
+
+.tw{
+    height: 30px;
+    width: 30px;
+    margin-right: 7px;
+}
+.google{
+    height: 30px;
+    width: 30px;
+    margin-right: 7px;
+}
+.downtitle{
+    font-size: 18px;
+}
+
+.downtxt{
+    margin-top: 8px;
+}
+  .row-parts, .row-3, .lil-logo{
+    margin-left: 0;
+    display: none;
+  }
+
+  .row-name i{
+    display: flex;
+    font-size: 14px;
+    color: #5863E3;
+    margin-right: 20px;
+    
+  }
+
+  .accordion-content {
+    display: none;
+  }
+
+}
+@media only screen and (max-width: 1030px) {
+  .right-side {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .footer {
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (max-width: 585px) {
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .left-side p {
+    font-size: 15px;
+    width: 150px;
+  }
+}
