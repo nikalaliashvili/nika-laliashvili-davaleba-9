@@ -1,7 +1,7 @@
 @media only screen and (min-width: 1280px){
 .container {
 	max-width: 1600px;
- 	width: 90%;
+ 	 width: 90%;
   	margin: 40px auto 0 auto;
 }
 
@@ -10,7 +10,7 @@
     margin-top: 51px;
 }
 
-.bottompics{
+.inpic{
     margin-left: 2px;
     height: 323px;
     width: 323px;
@@ -34,30 +34,33 @@
 
 }
 
+
+
+
+
 @media only screen and (max-width: 1280px){
 .container {
 	max-width: 1600px;
  	 width: 90%;
   	margin: 40px auto 0 auto;
 }
-h1{
+.smalltxt{
     font-size: 13px;
 }
 
-h2{
+.bigtxt{
     font-size: 43px;
 }
 
-.txtboxes {
+.topboxes {
   flex-direction: column;
 }
-
-.comment{
+.comment {
   height: 298px;
   width: 756px;
 }
 
-.smalls{
+.right{
     margin-left: 0;
 }
 
@@ -68,17 +71,16 @@ h2{
 input[type=submit] {
     width: 756px;
 }
-
-.contacts{
+.information {
     margin-left: 40px;
 }
 
-.informs {
+.inform {
     margin-right: 120px;
 }
 
 
-.blacktxt{
+.text{
     font-size: 43px;
     width: 500px;
 } 
@@ -87,7 +89,7 @@ input[type=submit] {
     flex-direction: column;
 }
 
-.bottompics{
+.inpic{
     height: 500px;
     width: 500px;
     margin-bottom: 40px;
@@ -100,15 +102,15 @@ input[type=submit] {
     padding: 63px 53px;
 }
 
-.inf{
+.infox{
     width: 200px;
 }
 
-.downtitle{
+.bottomname{
     font-size: 20px;
 }
 
-.downtxt{
+.bottomline{
     margin-top: 8px;
 }
 
@@ -124,7 +126,7 @@ input[type=submit] {
     margin-left: 94px;
 }
 
-.row-name{
+.columname{
     font-size: 18px;
     font-weight: 400;
     font-family: "Roboto", sans-serif;
@@ -132,7 +134,7 @@ input[type=submit] {
     margin-bottom: 32px;
 }
 
-.row-parts{
+.parts{
     font-size: 15px;
     font-weight: 400;
     font-family: "Roboto", sans-serif;
@@ -140,7 +142,7 @@ input[type=submit] {
     margin-bottom: 9px;
 }
 
-.lil-logo{
+.logo1{
     display: flex;
     flex-direction: row;
     align-items: baseline;
@@ -148,7 +150,16 @@ input[type=submit] {
     margin-bottom: 5px;
 }
 
-.row-3{
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+}
+
+
+.second-row-p{
     font-size: 17px;
     font-weight: 400;
     font-family: "Roboto", sans-serif;
@@ -168,24 +179,27 @@ input[type=submit] {
  	 width: 90%;
   	margin: 40px auto 0 auto;
 }
-h1{
+.smalltxt{
     font-size: 13px;
 }
 
-h2{
-    font-size: 43px;
+.bigtxt{
+    font-size: 40px;
 }
 
-.txtboxes {
+.topboxes {
   flex-direction: column;
   align-items: center;
 }
+
+
 .comment {
   height: 298px;
   width: 456px;
 }
 
-.smalls{
+
+.right{
     margin-left: 0;
 }
 
@@ -197,16 +211,17 @@ input[type=submit] {
     width: 456px;
 }
 
-.contacts {
+
+.information {
     margin-left: 85px;
 }
 
-.informs{
+.inform {
     margin-right: 70px;
 }
 
 
-.blacktext{
+.text{
     font-size: 43px;
     width: 500px;
 } 
@@ -215,11 +230,12 @@ input[type=submit] {
     flex-direction: column;
 }
 
-.bottompics{
+.inpic{
     height: 400px;
     width: 400px;
     margin-bottom: 30px;
 }
+
 
 .container-2 {
     height: 372px;
@@ -228,35 +244,31 @@ input[type=submit] {
     padding: 63px 33px;
 }
 
-.inf{
+.infox{
     width: 150px;
 }
 
-.fb{
+.fbp{
     height: 34px;
     width: 34px;
     margin-right: 7px;
 }
 
-.tw{
+.img{
     height: 30px;
     width: 30px;
     margin-right: 7px;
 }
-.google{
-    height: 30px;
-    width: 30px;
-    margin-right: 7px;
-}
-.downtitle{
+
+.bottomname{
     font-size: 18px;
 }
 
-.row-parts{
+.bottomline{
     margin-top: 8px;
 }
 
-.first-row{
+.third-row{
     margin-left: 71px;
 }
 
@@ -277,24 +289,26 @@ input[type=submit] {
  	width: 90%;
   	margin: 40px auto 0 auto;
 }
-h1{
+.smalltxt{
     font-size: 13px;
 }
 
-h2{
+.bigtxt{
     font-size: 43px;
 }
 
-.txtboxes {
+
+.topboxes {
   flex-direction: column;
 }
 
 .comment {
   height: 298px;
-  width: 100px;
+  width: 456px;
 }
 
-.smalls{
+
+.right{
     margin-left: 0;
 }
 
@@ -306,7 +320,7 @@ input[type=submit] {
     width: 456px;
 }
 
-.contacts {
+.information {
     margin-left: 30px;
 }
 
@@ -317,44 +331,42 @@ input[type=submit] {
     padding: 63px 33px;
 }
 
-.inf{
+.infox{
     width: auto;
 }
 
-.fb{
+.fbp{
     height: 34px;
     width: 34px;
     margin-right: 7px;
 }
 
-.tw{
+.img{
     height: 30px;
     width: 30px;
     margin-right: 7px;
 }
-.google{
-    height: 30px;
-    width: 30px;
-    margin-right: 7px;
-}
-.downtitle{
+
+.bottomname{
     font-size: 18px;
 }
 
-.downtxt{
+.bottomline{
     margin-top: 8px;
 }
 
-.container-2 {
+  .container-2 {
     flex-direction: column;
     padding: 30px;
     gap: 30px;
     height: auto;
-}
+  }
 
-.first-row,.second-row,.third-row {
+  .first-row,
+  .second-row,
+  .third-row {
     margin-left: 0;
-}
+  }
 
   .accordion-content {
     display: none;
@@ -371,17 +383,16 @@ input[type=submit] {
 	max-width: 1600px;
  	width: 90%;
   	margin: 40px auto 0 auto;
-    flex-direction: column;
 }
-h1{
+.smalltxt{
     font-size: 13px;
 }
 
-h2{
-    font-size: 36px;
+.bigtxt{
+    font-size: 30px;
 }
 
-.txtboxes {
+.topboxes {
   flex-direction: column;
 }
 
@@ -389,7 +400,8 @@ h2{
   height: 198px;
   width: 256px;
 }
-.smalls{
+
+.right{
     margin-left: 0;
 }
 
@@ -401,12 +413,12 @@ input[type=submit] {
     width: 256px;
 }
 
-.contacts {
+.information {
     margin-left: 30px;
     flex-direction: column;
 }
 
-.blacktext{
+.text{
     font-size:39px;
     font-weight: 400;
     color: black;
@@ -420,7 +432,7 @@ input[type=submit] {
     margin-top: 51px;
 }
 
-.bottompics{
+.inpic{
     height: 323px;
     width: 323px;
     margin-right: 99px;
@@ -435,83 +447,38 @@ input[type=submit] {
 
 }
 
-.downtitle{
-    border: 2px solid #5863E3;
+.columname{
     height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.inf{
+.infox{
     width: auto;
 }
 
-.fb{
+.fbp{
     height: 34px;
     width: 34px;
     margin-right: 7px;
 }
 
-.tw{
+.img{
     height: 30px;
     width: 30px;
     margin-right: 7px;
 }
-.google{
-    height: 30px;
-    width: 30px;
-    margin-right: 7px;
-}
-.downtitle{
+
+.bottomname{
     font-size: 18px;
 }
 
-.downtxt{
+.bottomline{
     margin-top: 8px;
 }
-  .row-parts, .row-3, .lil-logo{
+  .parts, .second-row-p, .logo{
     margin-left: 0;
-    display: none;
-  }
-
-  .row-name i{
-    display: flex;
-    font-size: 14px;
-    color: #5863E3;
-    margin-right: 20px;
-    
-  }
-
-  .accordion-content {
-    display: none;
-  }
-
-}
-@media only screen and (max-width: 1030px) {
-  .right-side {
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-  }
-
-  .footer {
-    justify-content: space-around;
-  }
-}
-
-@media only screen and (max-width: 585px) {
-  .footer {
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 100px;
-  }
-}
-
-@media only screen and (max-width: 350px) {
-  .left-side p {
-    font-size: 15px;
-    width: 150px;
+    display: block;
   }
 }
